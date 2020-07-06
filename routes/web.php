@@ -40,6 +40,6 @@ Route::post('supplier.update/{id}','SupplierController@update')-> name('supplier
 Route::get('supplier.delete/{id}','SupplierController@destroy')-> name('supplier.delete');
 
 //barang
-Route::get('barang.barang', 'BarangController@index')->name('barang');
+Route::get('barang.barang', 'BarangController@index')->name('index-barang');
 Route::get('barang.add', 'BarangController@create')-> name('barang.add');
 Route::post('barang.save','BarangController@store')-> name('barang.save');

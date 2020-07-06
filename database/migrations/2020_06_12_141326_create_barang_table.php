@@ -22,8 +22,7 @@ class CreateBarangTable extends Migration
         $table->string('satuan');
         $table->string('id_suplier');
         $table->string('categori');
-        $table->date('tanggal_masuk');
-        $table->timestamps();
+        $table->timestamps('tanggal_masuk');
         });
     }
 
